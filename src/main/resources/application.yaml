@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: true
+  primary:
+    datasource:
+      url: jdbc:mysql://localhost:3306/ecdemo
+      username: root
+      password: 12345678
+      driverClassName: com.mysql.cj.jdbc.Driver
+  secondary:
+    datasource:
+      url: jdbc:mysql://localhost:3307/ecdemo
+      username: root
+      password: 12345678
+      driverClassName: com.mysql.cj.jdbc.Driver
